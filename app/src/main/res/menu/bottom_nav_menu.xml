@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/set_color"
+        android:icon="@drawable/ic_set_color"
+        android:title="Pick Color" />
+
+    <item
+        android:id="@+id/take_photo"
+        android:icon="@drawable/ic_action_name"
+        android:title="Take Photo" />
+
+    <item
+        android:id="@+id/set_photo"
+        android:icon="@drawable/ic_pick_photo"
+        android:title="Pick Photo" />
+    <item
+        android:id="@+id/set_text"
+        android:icon="@drawable/ic_set_text"
+        android:title="Set Text" />
+</menu>
