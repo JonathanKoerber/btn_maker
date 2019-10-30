@@ -20,7 +20,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/round_btn" />
 
-    <com.madrapps.pikolo.HSLColorPicker
+    <!--https://androidexample365.com/a-library-for-android-that-provides-hsv-color-wheel-and-linear-gradient-seek-bar/-->
+    <com.apandroid.colorwheel.ColorWheel
         android:visibility="invisible"
         android:id="@+id/color_picker"
         android:layout_width="match_parent"

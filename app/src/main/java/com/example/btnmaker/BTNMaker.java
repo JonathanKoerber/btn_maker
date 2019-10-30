@@ -78,9 +78,8 @@ public class BTNMaker extends AppCompatActivity {
                     mColorPicker.setColorSelectionListener(new SimpleColorSelectionListener(){
                         @Override
                                 public void onColorSelected(int color){
-
-                                mButtonImage.getBackground().setColorFilter(color, PorterDuff.Mode.MULTIPLY);
-
+                              int mColor =  mColorPicker.getSolidColor();
+                                mButtonImage.getBackground().setColorFilter(mColor, PorterDuff.Mode.MULTIPLY);
                         }
                     });
                     return true;
